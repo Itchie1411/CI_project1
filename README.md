@@ -47,7 +47,7 @@ Receipes will include a Spanish Omeltte, an alcoholic whiskey cocktail and how t
 <img src='images/receipe_page.JPG' width='400'><br>
 <h3>Contact page</h3>
 <img src='images/contact.JPG' width='400'><br>
-<h3>Contact page</h3>
+<h3>Sumbit a receipe page</h3>
 <img src='images/submit_receipe.JPG' width='400'><br>
 <h3>About page</h3>
 <img src='images/about.JPG' width='400'><br>
