@@ -40,7 +40,17 @@ Receipes will include a Spanish Omeltte, an alcoholic whiskey cocktail and how t
 <a href='#ux'>
 </h2> </a>
 <strong>Wireframe</strong>
-<p>Will go here when complete </p>
+<p>Wireframes developed with <a href='https://www.mockflow.com'>Mockflow.com</a>
+<h3>Main page</h3>
+<img src='images/main.JPG' width='400'><br>
+<h3>Receipe page</h3>
+<img src='images/receipe_page.JPG' width='400'><br>
+<h3>Contact page</h3>
+<img src='images/contact.JPG' width='400'><br>
+<h3>Contact page</h3>
+<img src='images/submit_receipe.JPG' width='400'><br>
+<h3>About page</h3>
+<img src='images/about.JPG' width='400'><br>
 
 <br> 
 <hr>
@@ -58,10 +68,16 @@ Receipes will include a Spanish Omeltte, an alcoholic whiskey cocktail and how t
 <h2> Pages</h2>
 <ol>
 <li>Home page</li>
+<li>About page</li>
 <li>Receipe page</li>
 <li>Contact page</li>
 <li>Submit a Receipe page</li>
 </ol>
+<h2> User cases </h2>
+This website will be designed for anyone with the ability to cook and prepare foods. There will be an alcohol section on how to make cocktails however this will be noted on the page that only users of the age of 18 should be creating these receipies. <br>
+Users will use the site to search, select and view images along with short text description on how to perform the steps. <br>
+Any user can submit a receipe for review and have it posted on the site under their name. During the submitting process, the user can navigate back to the home page and search more receipes to keep the user engagned.<br>
+Users can easily contact the websites content creator or website creator by simply submitting a contact form.
 <br> 
 <hr>
 
