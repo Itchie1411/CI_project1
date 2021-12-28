@@ -300,3 +300,26 @@ ul > li {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
+#social-medias {
+    font-size: 100%;
+    margin: 1%;
+    padding: 1.5%;
+    color: #3a3a3a;
+    gap: 150px;
+}
+
+#social-medias {
+    text-align: center;
+}
+
+#social-medias li {
+    display: inline;
+}
+
+#social-medias i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1.5%;
+    color: #3a3a3a;
+}
