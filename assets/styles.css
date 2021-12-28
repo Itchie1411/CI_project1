@@ -8,6 +8,13 @@
     line-height: 50px;
 }
 
+hr {
+    border: dotted 6px rgb(240, 132, 60);
+    border-bottom: none;
+    width: 400px;
+    margin: 50px auto;
+}
+
 /* Making sure the logo or website name menu items are inline */
 
 #menu {
