@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pushster&display=swap');
 #main_name, #menu {
     font-family: Pushster, sans-serif;
     color: rgb(240, 132, 60);
@@ -37,20 +36,16 @@ ul > li {
 }
 
 /* background image */
- #cooking img {
+ #cooking {
     height: 800px;
-    width: 1880px;
+    width: 1900px;
+    background: url(/images/background.jpg) no-repeat center center;
     overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
+    justify-content: center;
     animation: bg-zoom;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-
- #bg-img {
-    
-} 
 
 @keyframes bg-zoom {
     from {
@@ -61,13 +56,28 @@ ul > li {
     }
 } 
 
+#creator-info {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#creator-info h2 {
+    font-size: 120%;
+    font-family: Montserrat, Arial;
+    text-align: justify;
+    padding-left: 20px;
+}
+
  #circle-container{
     position: absolute;
     width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: rgb(240, 132, 60);
     border-width: 1px;
     border-radius: 50%;
     
@@ -75,7 +85,112 @@ ul > li {
 }
 
 #content_creator_img {
-    background: url(../images/estrella.jpg);
-    height: 10%;
+    background: url(../images/estrella.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
     border-radius: 50%;
+}
+
+#cooking-cards {
+  max-width: 300px;
+  column-gap: 25px;
+  display: flex;
+
+}
+
+
+#food-card {
+    
+    max-width: 300px;
+    margin-left: 110px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+#food-card-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#food-card img {
+    max-width: 300px;
+
+}
+
+#food-card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#food-card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+
+#cocktail-card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+#cocktail-card-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#cocktail-card img {
+    max-width: 300px;
+}
+
+#cocktail-card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#cocktail-card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+
+#coffee-card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+#coffee-card-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#coffee-card img {
+    max-width: 300px;
+}
+
+#coffee-card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#coffee-card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
 }
