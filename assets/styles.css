@@ -1,9 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
 
-#main_name {
+#main_name, #menu {
     font-family: Pushster, sans-serif;
     color: rgb(240, 132, 60);
-    font-size: 220%;
-    margin-left: 30px;
+    font-size: 200%;
+    margin-left: 25px;
     float: left;
+    line-height: 50px;
+}
+
+/* Making sure the logo or website name menu items are inline */
+
+#menu {
+    font-family: Pushster, sans-serif;
+    font-size: 120%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    margin-right: 90px;
+    float: right;
+    padding-top: 5px;
+}
+
+
+/* List items horizontal rather than vertical */
+ul > li {
+    display: inline-block;
+}
+
+/*removing any styles auto placed on the a href links */
+#menu a {
+    text-decoration: none;
+}
+/* Adding a style to underline links when hovered */
+#menu a:hover {
+    border-bottom: 1px solid rgb(240, 132, 60);
+}
+
+/* background image */
+ #cooking img {
+    height: 800px;
+    width: 1880px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: bg-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+ #bg-img {
+    
+} 
+
+@keyframes bg-zoom {
+    from {
+        transform: scale(.9);
+    }
+    to {
+        transform: scale(1);
+    }
+} 
+
+ #circle-container{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    
+
+}
+
+#content_creator_img {
+    background: url(../images/estrella.jpg);
+    height: 10%;
+    border-radius: 50%;
 }
