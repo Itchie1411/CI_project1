@@ -91,9 +91,19 @@ ul > li {
     border-radius: 50%;
 }
 
+#map {
+    margin-left: 1100px;
+    margin-top: 30px;
+}
+
+
+#content_creator_img:hover {
+    scale: 1.1;
+}
+
 #cooking-cards {
   max-width: 300px;
-  column-gap: 25px;
+  column-gap: 15px;
   display: flex;
 
 }
@@ -163,6 +173,38 @@ ul > li {
     opacity: .7;
 }
 
+#cocktail-card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+#cocktail-card-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#cocktail-card img {
+    max-width: 300px;
+}
+
+#cocktail-card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#cocktail-card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+
 #coffee-card {
     
     max-width: 300px;
@@ -191,6 +233,70 @@ ul > li {
     font-size: 18px;
 }
 #coffee-card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+
+#cocktail-card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+#cocktail-card-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#cocktail-card img {
+    max-width: 300px;
+}
+
+#cocktail-card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#cocktail-card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+
+#idea-card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+#idea-card-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#idea-card img {
+    max-width: 300px;
+}
+
+#idea-card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#idea-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
