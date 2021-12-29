@@ -145,6 +145,7 @@ ul > li {
     margin-left: 110px;
     font-family: Montserrat, Arial;
     text-align:center;
+    margin-bottom: 500px;
 }
 
 #food-card-header {
@@ -282,6 +283,7 @@ ul > li {
     margin-left: 150px;
     font-family: Montserrat, Arial;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 #idea-card-header {
