@@ -359,28 +359,6 @@ ul > li {
 
 /* About PAGE */
 
-#creator-info_ {
-    display: flex;
-    font-size: 100%;
-    font-family: Montserrat, Arial;
-    margin-top: 30px;
-    padding-top: 200px;
-    margin: auto;
-    width: 50%;
-    column-gap: 100px;
-    
-}
-
-#creator-info_web {
-    font-size: 100%;
-    font-family: Montserrat, Arial;
-    margin-top: 30px;
-    padding-top: 200px;
-    column-gap: 15px;
-    
-    
-}
-
 
 #circle-container_ {
     width: 300px;
@@ -391,15 +369,17 @@ ul > li {
     border-width: 1px;
     border-radius: 50%;
 
+
 }
+
 
 #creator-img {
     background: url(../images/estrella.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
-    text-align: center;
 }
+
 
 
 /*contact page and form */
@@ -451,3 +431,11 @@ ul > li {
 
 }
 
+@media screen and (max-width: 1200px) {
+
+    #main_name, #menu, #image-text {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
