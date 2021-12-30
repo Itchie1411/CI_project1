@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pushster&display=swap');
 
-#main_name, #menu {
+#main_name,
+#menu {
     font-family: Pushster, sans-serif;
     color: rgb(240, 132, 60);
     font-size: 200%;
@@ -30,7 +31,7 @@ hr {
 
 
 /* List items horizontal rather than vertical */
-ul > li {
+ul>li {
     display: inline-block;
 }
 
@@ -38,13 +39,14 @@ ul > li {
 #menu a {
     text-decoration: none;
 }
+
 /* Adding a style to underline links when hovered */
 #menu a:hover {
     border-bottom: 1px solid rgb(240, 132, 60);
 }
 
 /* background image */
- #cooking {
+#cooking {
     height: 800px;
     width: 1900px;
     background: url(/images/background.jpg) no-repeat center center;
@@ -59,10 +61,11 @@ ul > li {
     from {
         transform: scale(.9);
     }
+
     to {
         transform: scale(1);
     }
-} 
+}
 
 #image-text {
     font-size: 130%;
@@ -80,7 +83,8 @@ ul > li {
 }
 
 
-#image-text, #image-text h3 {
+#image-text,
+#image-text h3 {
     color: #fff;
     position: absolute;
 }
@@ -101,7 +105,7 @@ ul > li {
     width: 350px;
     border-right-width: 0px;
     padding-right: 950px;
-    
+
 }
 
 
@@ -116,11 +120,11 @@ ul > li {
     font-size: 100%;
     text-align: center;
     float: right;
-    
+
 }
 
 
- #circle-container{
+#circle-container {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -141,9 +145,7 @@ ul > li {
 }
 
 
-#map {
-    
-}
+#map {}
 
 
 #content_creator_img:hover {
@@ -151,10 +153,10 @@ ul > li {
 }
 
 #cooking-cards {
-  padding-bottom: 20px;
-  column-gap: 15px;
-  display: flex;
-  height: 600px;
+    padding-bottom: 20px;
+    column-gap: 15px;
+    display: flex;
+    height: 600px;
 
 }
 
@@ -163,7 +165,7 @@ ul > li {
     max-width: 300px;
     margin-left: 110px;
     font-family: Montserrat, Arial;
-    text-align:center;
+    text-align: center;
     margin-bottom: px;
 }
 
@@ -186,16 +188,18 @@ ul > li {
     width: 100%;
     font-size: 18px;
 }
+
 #food-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #food-card:hover {
     scale: 1.01;
 }
 
 #cocktail-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -221,13 +225,14 @@ ul > li {
     width: 100%;
     font-size: 18px;
 }
+
 #cocktail-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
 
 #cocktail-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -253,16 +258,18 @@ ul > li {
     width: 100%;
     font-size: 18px;
 }
+
 #cocktail-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #cocktail-card:hover {
     scale: 1.01;
 }
 
 #coffee-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -288,16 +295,18 @@ ul > li {
     width: 100%;
     font-size: 18px;
 }
+
 #coffee-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #coffee-card:hover {
     scale: 1.01;
 }
 
 #idea-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -324,10 +333,12 @@ ul > li {
     width: 100%;
     font-size: 18px;
 }
+
 #idea-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #idea-card:hover {
     scale: 1.01;
 }
@@ -392,23 +403,26 @@ ul > li {
     border-color: rgb(240, 132, 60);
     padding: 2rem;
     border-radius: 5px;
-    
+
 
 }
 
-.contact-form label, input, textarea {
+.contact-form label,
+input,
+textarea {
     display: block;
     padding: .25rem 0;
     width: 100%;
-    
+
 }
 
-.contact-form input, textarea {
+.contact-form input,
+textarea {
     display: block;
     padding: .5rem;
     width: 95%;
     font-size: 15px;
-    
+
 }
 
 #send-btn {
@@ -433,7 +447,9 @@ ul > li {
 
 @media screen and (max-width: 1200px) {
 
-    #main_name, #menu, #image-text {
+    #main_name,
+    #menu,
+    #image-text {
         width: 65%;
         height: 1200px;
         margin: 0 auto;

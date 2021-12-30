@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pushster&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between
+}
+
+.nheader {
+    height: 10vh;
+}
+
+.ncreator-info {
+    height: 80vh;
+    align-self: center;
+    background: url('../assets/wish.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 99vw;
+    text-align: center;
+}
+
+
+.nfooter {
+    height: 10vh;
+}
+
+.creator-info-text {
+    font-size: 160%;
+    font-family: Montserrat, Arial;
+    margin-top: 30px;
+    border-right-style: solid;
+    width: 350px;
+    border-right-width: 0px;
+    padding-right: 950px;
+
+}
+
+
+.main_name,
+.menu {
+    font-family: Pushster, sans-serif;
+    color: rgb(240, 132, 60);
+    font-size: 200%;
+    margin-left: 25px;
+    float: left;
+    line-height: 50px;
+}
+
+hr {
+    border: dotted 6px rgb(240, 132, 60);
+    border-bottom: none;
+    width: 400px;
+    margin: 50px auto;
+}
+
+/* Making sure the logo or website name menu items are inline */
+
+.menu {
+    font-family: Pushster, sans-serif;
+    font-size: 120%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    margin-right: 90px;
+    float: right;
+    padding-top: 5px;
+}
+
+
+/* List items horizontal rather than vertical */
+ul>li {
+    display: inline-block;
+}
+
+/*removing any styles auto placed on the a href links */
+.menu a {
+    text-decoration: none;
+}
+
+/* Adding a style to underline links when hovered */
+.menu a:hover {
+    border-bottom: 1px solid rgb(240, 132, 60);
+}
+
+
+
+#social-medias {
+    font-size: 100%;
+    margin: 1%;
+    padding: 1.5%;
+    color: #3a3a3a;
+    gap: 150px;
+}
+
+#social-medias {
+    font-family: Pushster, sans-serif;
+    text-align: center;
+}
+
+#social-medias li {
+    display: inline;
+}
+
+#social-medias i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1.5%;
+    color: #3a3a3a;
+}
