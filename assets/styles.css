@@ -9,6 +9,10 @@
     line-height: 50px;
 }
 
+#main_name:hover {
+    border-bottom: 1px solid rgb(240, 132, 60);
+}
+
 hr {
     border: dotted 6px rgb(240, 132, 60);
     border-bottom: none;
@@ -359,8 +363,13 @@ ul > li {
 
 /* About PAGE */
 
+#creator-info_ {
+    padding: 10rem 0 25rem 0;
+    margin: 0 10rem 0 15rem;
+}
 
 #circle-container_ {
+    position: absolute;
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -368,16 +377,74 @@ ul > li {
     border-color: rgb(240, 132, 60);
     border-width: 1px;
     border-radius: 50%;
+    
 
 
 }
-
 
 #creator-img {
     background: url(../images/estrella.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
+}
+
+#web_creator_info {
+    padding: 10rem 50rem;
+    margin: 0 10rem 0 15rem;
+}
+
+#creator-info_web li, ol{
+}
+
+#circle-container_web {
+    position: inherit;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(240, 132, 60);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 0 0 35rem;
+
+}
+
+#creator-img_web {
+    background: url(../images/richard.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#creator-list > li, ol {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 3rem ;
+
+}
+
+#creator-list_web > li, ol {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 0rem 0 0rem;
+    
+}
+
+#want-to-contact {
+    font-family: Pushster, sans-serif;
+    margin: 0 20rem;
+    font-weight: normal;
+
+}
+
+#want-to-contact a {
+    font-family: Pushster, sans-serif;
+    margin: 0 20rem;
+    
+
 }
 
 
@@ -431,11 +498,4 @@ ul > li {
 
 }
 
-@media screen and (max-width: 1200px) {
-
-    #main_name, #menu, #image-text {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-}
+/*media queries */
