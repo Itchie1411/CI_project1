@@ -24,10 +24,10 @@
                     <a href="/index.html">Home</a>
                 </li>
                 <li>
-                    <a href="/submit.html" target="_blank">Submit</a>
+                    <a href="/pages/submit.html" target="">Submit</a>
                 </li>
                 <li>
-                    <a href="/pages/contact.html" target="_blank">Contact</a>
+                    <a href="/pages/contact.html" target="">Contact</a>
                 </li>
                 
                 
@@ -35,22 +35,32 @@
         </nav>
     </header>
 
+    <section id='form-contact'>
+        <div class="contact-form">
+        <form id='form-element' action="" method="post">
+          <label for="auth">Receipe Author</label><br>
+          <input type="text" name="auth" value="" id="auth"><br>
 
-  <section id="creator-info_">
-      <div id='creator-info-text'>
+          <label for="email">Email Address:</label><br>
+          <input type="email" name="email" value="" id="email" required><br>
+  
+          <label for="dish-name">Dish or drink name</label><br>
+          <input type="text" name="dish-name" value="" id="dish-name"><br>
+
+          <label for="ingredient1">Ingredients <br>Add as many as you like - seperate them by a comma</label><br>
+          <input type="text" name="ingredient1e" value="" id="ingredient1" placeholder="Main Ingredients"><br>
+
+          <label for="ingredient2">Optional Ingredients</label><br>
+          <input type="text" name="ingredingredient2ient1e" value="" id="ingredient2" placeholder="optional ingredients"><br>
+    
+          <textarea name="" style="350px" height='150px' id="" cols="30" rows="10" placeholder="Write your steps to create the dish or drink"></textarea>
+          <input type="submit" value="submit" id='send-btn'>
+          <button id="send-btn"><a href="/pages/thankkyou-submit.html">Send (TEST)</a></button>
+        </form>
     </div>
-      <div id="circle-container_">
-          <div id="creator-img">
-            
-          </div>
-        </div>
+</section>
 
-        <div id="circle-container_">
-            <div id="creator-img_web">
-              
-            </div>
-          </div>
-      </section>
+  
 
 
   <footer>
