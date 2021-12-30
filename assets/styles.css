@@ -401,23 +401,52 @@ ul > li {
 }
 
 
-
-
 /*contact page and form */
 
-div.form {
+.contact-form {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: .5rem auto;
+    border: 2px solid;
+    border-color: rgb(240, 132, 60);
+    padding: 2rem;
+    border-radius: 5px;
+    
+
+}
+
+.contact-form label, input, textarea {
     display: block;
-    text-align: center;
-    border-radius: 10px;
+    padding: .25rem 0;
+    width: 100%;
+    
 }
 
-form {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.contact-form input, textarea {
+    display: block;
+    padding: .5rem;
+    width: 95%;
+    font-size: 15px;
+    
 }
 
-form.input {
-    border-radius: 10px;
+#send-btn {
+    border: 0%;
+    padding: .5rem;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+
 }
+
+#send-btn:hover {
+    background-color: rgb(240, 132, 60);
+    color: white;
+}
+
+#form-contact {
+    padding: 5rem 0;
+
+}
+
