@@ -96,6 +96,9 @@ ul > li {
     padding-top: 20px;
 }
 
+section#creator-info_ {
+    padding-left: 215px;
+}
 
 #creator-info-text {
     font-size: 160%;
@@ -142,11 +145,6 @@ ul > li {
     background-size: cover;
     height: 100%;
     border-radius: 50%;
-}
-
-
-#map {
-    
 }
 
 
@@ -437,7 +435,14 @@ ul > li {
     font-family: Pushster, sans-serif;
     margin: 0 20rem;
     font-weight: normal;
+    padding-left: 57px;
 
+}
+
+h3 {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #want-to-contact a {
@@ -498,4 +503,165 @@ ul > li {
 
 }
 
-/*media queries */
+/*food page card */
+#food_card_ {
+    max-width: 300px;
+    margin-left: 110px;
+    font-family: Montserrat, Arial;
+    text-align:center;
+    margin-bottom: px;
+}
+div#food_card_ {
+    margin-left: 5px;
+}
+
+#food_card_header {
+    box-shadow: 0 4px 8px 0 rgb(240, 132, 60, 0.3);
+}
+
+div#food_card_header {
+    margin-top: 10rem;
+}
+
+#food_card_ img {
+    max-width: 300px;
+
+}
+
+#food_card_ button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#food_card_ button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+#food_card_:hover {
+    scale: 1.01;
+}
+
+
+/* Cocktail page card */ 
+#cocktail_card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+div#cocktail_card {
+    margin-left: 5px;
+}
+
+#cocktail_card_header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div#cocktail_card_header {
+    margin-top: 10rem;
+}
+
+
+#cocktail_card img {
+    max-width: 300px;
+}
+
+#cocktail_card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#cocktail_card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+
+#cocktail_card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+
+#cocktail-card_header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#cocktail_card img {
+    max-width: 300px;
+}
+
+#cocktail_card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#cocktail_card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+#cocktail_card:hover {
+    scale: 1.01;
+}
+
+
+/* Coffee page card */
+
+#coffee_card {
+    
+    max-width: 300px;
+    margin-left: 150px;
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+div#coffee_card {
+    margin-left: 5rem;
+}
+
+#coffee_card_header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+div#coffee_card_header {
+    margin-top: 10rem;
+}
+
+#coffee_card img {
+    max-width: 300px;
+}
+
+#coffee_card button {
+    border: none;
+    outline: 0px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+#coffee_card button:hover {
+    color: rgb(240, 132, 60);
+    opacity: .7;
+}
+#coffee_card:hover {
+    scale: 1.01;
+}
