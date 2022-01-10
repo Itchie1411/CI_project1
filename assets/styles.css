@@ -159,7 +159,10 @@ section#creator-info_ {
   height: 600px;
 
 }
-
+section#cooking-cards {
+    width: 0%;
+    height: 0%;
+}
 
 #food-card {
     max-width: 300px;
@@ -509,7 +512,6 @@ h3 {
     margin-left: 110px;
     font-family: Montserrat, Arial;
     text-align:center;
-    margin-bottom: px;
 }
 div#food_card_ {
     margin-left: 5px;
