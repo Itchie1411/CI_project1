@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,300&family=Montserrat:wght@200&display=swap');
 
 #main_name, #menu {
     font-family: Pushster, sans-serif;
@@ -692,12 +692,20 @@ section.food-list {
 
 }
 
-#images1 p {
-        display: flex !important;
-        justify-content: center !important;
-
+#images1 {
+        display: flex;
+        padding-bottom: 3rem;
 }
 
+div.text_right {
+    width: 15%;
+    margin-left: 5rem;
+    font-family: Josefin Sans, sans-serif;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+
+}
 
 #images2 img {
     width: 400px;
@@ -705,13 +713,30 @@ section.food-list {
     border-style: solid;
     border-radius: 10%;
     border-color: rgb(240, 132, 60);
-    margin-left:70rem;
+    margin-left: 20rem;
 
 }
 
-#images2 p {
-        display: flex !important;
-        justify-content: right !important;
+
+#images2 {
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+#images3 img {
+    width: 400px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: rgb(240, 132, 60);
+    margin-left: 20rem;
+
+}
+
+
+#images3 {
+    display: flex;
+    padding-bottom: 3rem;
 
 }
 
@@ -726,7 +751,7 @@ section.food-list {
 }
 
 #food-footer social-medias {
-    padding-top: 48rem !important;
+    padding-top: 48rem;
 
 }
 
