@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,300&family=Montserrat:wght@200&family=Oswald&display=swap');
 
-#main_name, #menu {
+#main_name,
+#menu {
     font-family: Oswald, sans-serif;
     color: rgb(240, 132, 60);
     font-size: 200%;
@@ -36,7 +37,7 @@ hr {
 
 
 /* List items horizontal rather than vertical */
-ul > li {
+ul>li {
     display: inline-block;
 }
 
@@ -44,13 +45,14 @@ ul > li {
 #menu a {
     text-decoration: none;
 }
+
 /* Adding a style to underline links when hovered */
 #menu a:hover {
     border-bottom: 1px solid rgb(240, 132, 60);
 }
 
 /* background image */
- #cooking {
+#cooking {
     height: 800px;
     width: 1900px;
     background: url(/images/background.jpg) no-repeat center center;
@@ -65,10 +67,11 @@ ul > li {
     from {
         transform: scale(.9);
     }
+
     to {
         transform: scale(1);
     }
-} 
+}
 
 #image-text {
     font-size: 130%;
@@ -86,7 +89,8 @@ ul > li {
 }
 
 
-#image-text, #image-text h3 {
+#image-text,
+#image-text h3 {
     color: #fff;
     position: absolute;
 }
@@ -110,7 +114,7 @@ section#creator-info_ {
     width: 350px;
     border-right-width: 0px;
     padding-right: 950px;
-    
+
 }
 
 
@@ -125,11 +129,11 @@ section#creator-info_ {
     font-size: 100%;
     text-align: center;
     float: right;
-    
+
 }
 
 
- #circle-container{
+#circle-container {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -155,12 +159,13 @@ section#creator-info_ {
 }
 
 #cooking-cards {
-  padding-bottom: 20px;
-  column-gap: 15px;
-  display: flex;
-  height: 600px;
+    padding-bottom: 20px;
+    column-gap: 15px;
+    display: flex;
+    height: 600px;
 
 }
+
 section#cooking-cards {
     width: 0%;
     height: 0%;
@@ -170,7 +175,7 @@ section#cooking-cards {
     max-width: 300px;
     margin-left: 110px;
     font-family: Montserrat, Arial;
-    text-align:center;
+    text-align: center;
 }
 
 #food-card-header {
@@ -192,16 +197,18 @@ section#cooking-cards {
     width: 100%;
     font-size: 18px;
 }
+
 #food-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #food-card:hover {
     scale: 1.01;
 }
 
 #cocktail-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -227,13 +234,14 @@ section#cooking-cards {
     width: 100%;
     font-size: 18px;
 }
+
 #cocktail-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
 
 #cocktail-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -259,16 +267,18 @@ section#cooking-cards {
     width: 100%;
     font-size: 18px;
 }
+
 #cocktail-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #cocktail-card:hover {
     scale: 1.01;
 }
 
 #coffee-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -294,16 +304,18 @@ section#cooking-cards {
     width: 100%;
     font-size: 18px;
 }
+
 #coffee-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #coffee-card:hover {
     scale: 1.01;
 }
 
 #idea-card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -330,10 +342,12 @@ section#cooking-cards {
     width: 100%;
     font-size: 18px;
 }
+
 #idea-card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #idea-card:hover {
     scale: 1.01;
 }
@@ -379,7 +393,7 @@ section#cooking-cards {
     border-color: rgb(240, 132, 60);
     border-width: 1px;
     border-radius: 50%;
-    
+
 
 
 }
@@ -396,8 +410,8 @@ section#cooking-cards {
     margin: 0 10rem 0 15rem;
 }
 
-#creator-info_web li, ol{
-}
+#creator-info_web li,
+ol {}
 
 #circle-container_web {
     position: inherit;
@@ -419,20 +433,22 @@ section#cooking-cards {
     border-radius: 50%;
 }
 
-#creator-list > li, ol {
+#creator-list>li,
+ol {
     list-style-type: none;
     font-size: 20px;
     text-align: center;
-    padding: 0 3rem ;
+    padding: 0 3rem;
 
 }
 
-#creator-list_web > li, ol {
+#creator-list_web>li,
+ol {
     list-style-type: none;
     font-size: 20px;
     text-align: center;
     padding: 0 0rem 0 0rem;
-    
+
 }
 
 #want-to-contact {
@@ -441,6 +457,12 @@ section#cooking-cards {
     font-weight: normal;
     padding-left: 57px;
 
+}
+
+#food-list-header h3 {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
 }
 
 h3 {
@@ -452,7 +474,7 @@ h3 {
 #want-to-contact a {
     font-family: Pushster, sans-serif;
     margin: 0 20rem;
-    
+
 
 }
 
@@ -468,23 +490,26 @@ h3 {
     border-color: rgb(240, 132, 60);
     padding: 2rem;
     border-radius: 5px;
-    
+
 
 }
 
-.contact-form label, input, textarea {
+.contact-form label,
+input,
+textarea {
     display: block;
     padding: .25rem 0;
     width: 100%;
-    
+
 }
 
-.contact-form input, textarea {
+.contact-form input,
+textarea {
     display: block;
     padding: .5rem;
     width: 95%;
     font-size: 15px;
-    
+
 }
 
 #send-btn {
@@ -512,15 +537,10 @@ h3 {
     text-align: center;
     font-size: 20px;
     line-height: 30px;
+    border-bottom: none;
 }
 
-#phone-size-recipe-selection a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    
-}
-
-#phone-size-recipe-selection a:hover {
+#phone-size-recipe-selection:hover {
     border-bottom: 1px solid rgb(240, 132, 60);
 }
 
@@ -529,8 +549,9 @@ h3 {
     max-width: 300px;
     margin-left: 110px;
     font-family: Montserrat, Arial;
-    text-align:center;
+    text-align: center;
 }
+
 div#food_card_ {
     margin-left: 5px;
 }
@@ -558,18 +579,20 @@ div#food_card_header {
     width: 100%;
     font-size: 18px;
 }
+
 #food_card_ button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #food_card_:hover {
     scale: 1.01;
 }
 
 
-/* Cocktail page card */ 
+/* Cocktail page card */
 #cocktail_card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -603,13 +626,14 @@ div#cocktail_card_header {
     width: 100%;
     font-size: 18px;
 }
+
 #cocktail_card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
 
 #cocktail_card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -635,10 +659,12 @@ div#cocktail_card_header {
     width: 100%;
     font-size: 18px;
 }
+
 #cocktail_card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #cocktail_card:hover {
     scale: 1.01;
 }
@@ -647,12 +673,13 @@ div#cocktail_card_header {
 /* Coffee page card */
 
 #coffee_card {
-    
+
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
     text-align: center;
 }
+
 div#coffee_card {
     margin-left: 5rem;
 }
@@ -660,6 +687,7 @@ div#coffee_card {
 #coffee_card_header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 div#coffee_card_header {
     margin-top: 10rem;
 }
@@ -678,10 +706,12 @@ div#coffee_card_header {
     width: 100%;
     font-size: 18px;
 }
+
 #coffee_card button:hover {
     color: rgb(240, 132, 60);
     opacity: .7;
 }
+
 #coffee_card:hover {
     scale: 1.01;
 }
@@ -711,13 +741,13 @@ section.food-list {
 }
 
 #images1 {
-        display: flex;
-        padding-bottom: 3rem;
+    display: flex;
+    padding-bottom: 3rem;
 }
 
 div.text_right {
     width: 15%;
-    margin-left: 5rem;
+    margin: 0 0 0 5rem;
     font-family: Josefin Sans, sans-serif;
     align-items: center;
     display: flex;
@@ -795,82 +825,209 @@ div.text_right {
         width: 375px;
         height: 812px;
     }
+
     #main_name {
         float: none;
         margin-left: 0;
         margin-right: 0;
         border-bottom: none;
-    }
-
-    #menu {
-            font-family: Oswald, sans-serif;
-            font-size: 120%;
-            letter-spacing: 4px;
-            list-style-type: none;
-            padding-top: 5px;
-            text-align: center;
-    }
-    #cooking {
-        display: none;
-    }
-    #image-text {
-        border-radius: 12%;
-        right: 50%;
-        bottom: 6%;
-        
-    }
-    #main_name {  
         font-family: Oswald, sans-serif;
         color: rgb(240, 132, 60);
         font-size: 200%;
         line-height: 50px;
         text-align: center;
+        padding-left: 50px;
     }
+
+    #menu {
+        font-family: Oswald, sans-serif;
+        font-size: 120%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        padding-top: 5px;
+        text-align: center;
+        margin: 0 5rem;
+    }
+
+    #cooking {
+        display: none;
+    }
+
+    #image-text {
+        border-radius: 12%;
+        right: 50%;
+        bottom: 6%;
+
+    }
+
     #food-card {
         display: none;
     }
-    #cocktail-card{
+
+    #cocktail-card {
         display: none;
     }
+
     #coffee-card {
         display: none;
     }
+
     #idea-card {
         display: none;
     }
-     #creator-info {
-       margin-top: 150px;
+
+    #creator-info {
+        margin-top: 150px;
     }
+
     #creator-info-text {
         display: none;
     }
+
     section#creator-info_ {
         padding-left: 0;
     }
+
     #creator-info_ {
         margin: 0;
     }
+    #circle-container {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+        border-style: solid;
+        border-color: rgb(240, 132, 60);
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 2rem 0 0 22rem;
+    }
+
     #creator-img_web {
         display: none;
     }
+
     #circle-container_web {
         display: none;
     }
+
     #creator-img_web {
         display: none;
     }
+
     #want-to-contact {
         margin: 0;
         padding-top: 20rem;
         margin-right: 50px;
         text-align: center;
     }
+
     #want-to-contact a {
         margin: 0;
     }
-    #form-contact{
-       padding: 10rem 0;
+
+    #form-contact {
+        padding: 10rem 0;
+    }
+
+    #food_card_ {
+        display: block;
+        padding-left: 2rem;
+        vertical-align: bottom;
+        margin: 7rem 0 auto;
+    }
+
+    #food-list-header h3 {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 7rem;
+    }
+
+    #food-list-header ul {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 1rem;
+    }
+
+    #images1 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images1 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.left {
+        width: 50px;
+    }
+
+    div.text_right {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 25px;
+        width: 260px;
+        margin: 33rem 0 auto;
+        text-align: center;
+    }
+
+    #images2 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images2 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.right {
+        width: 50px;
+    }
+
+    #images3 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images3 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.right {
+        width: 50px;
+    }
+
+    div#right-secondary-image {
+        display: none;
+    }
+
+    #food-list-header {
+        margin: 0 2rem auto;
     }
 }
-
-
