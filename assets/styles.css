@@ -844,6 +844,33 @@ div.text_right {
     #creator-info-text {
         display: none;
     }
+    section#creator-info_ {
+        padding-left: 0;
+    }
+    #creator-info_ {
+        margin: 0;
+    }
+    #creator-img_web {
+        display: none;
+    }
+    #circle-container_web {
+        display: none;
+    }
+    #creator-img_web {
+        display: none;
+    }
+    #want-to-contact {
+        margin: 0;
+        padding-top: 20rem;
+        margin-right: 50px;
+        text-align: center;
+    }
+    #want-to-contact a {
+        margin: 0;
+    }
+    #form-contact{
+       padding: 10rem 0;
+    }
 }
 
 
