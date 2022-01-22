@@ -820,8 +820,246 @@ div.text_right {
     height: 2.5rem;
 }
 
+/* -----------------MEDIA QUERIES----------*/ 
+
+
+/* ipad screen resolution */
+@media screen and (max-width: 810px) {
+    #body {
+        width: 375px;
+        height: 812px;
+    }
+
+    #main_name {
+        float: none;
+        border-bottom: none;
+        font-family: Oswald, sans-serif;
+        color: rgb(240, 132, 60);
+        font-size: 200%;
+        line-height: 50px;
+        text-align: center;
+
+    }
+
+    #menu {
+        font-family: Oswald, sans-serif;
+        font-size: 120%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        padding-top: 5px;
+        text-align: center;
+        margin: 0 15rem;
+    }
+
+    #cooking {
+        display: block;
+        width: 810px;
+        height: 720px;
+    }
+
+    #image-text {
+        border-radius: 12%;
+        right: 50%;
+        bottom: 6%;
+
+    }
+
+    #food-card {
+        display: none;
+    }
+
+    #cocktail-card {
+        display: none;
+    }
+
+    #coffee-card {
+        display: none;
+    }
+
+    #idea-card {
+        display: none;
+    }
+
+    #creator-info {
+        margin-top: 2rem;
+    }
+
+    #image-text,
+    #image-text h3 {
+        color: #fff;
+        padding: 2rem;
+    }
+
+    #creator-info-text {
+        display: none;
+    }
+
+    section#creator-info_ {
+        padding-left: 0;
+    }
+
+    #creator-info_ {
+        margin: 2rem;
+    }
+
+    #circle-container {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+        border-style: solid;
+        border-color: rgb(240, 132, 60);
+        border-width: 1px;
+        border-radius: 50%;
+    }
+
+    #creator-img_web {
+        display: block;
+    }
+
+    #circle-container_web {
+        display: block;
+        margin: 0 25rem;
+    }
+
+    #creator-img_web {
+        display: block;
+    }
+
+    #want-to-contact {
+        margin: 0;
+        padding-top: 1rem;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    #want-to-contact a {
+        margin: 0;
+    }
+
+    #form-contact {
+        padding: 10rem 0;
+    }
+
+    #food_card_ {
+        display: block;
+        padding: 1rem 15rem;
+        margin: 5rem 0 auto;
+    }
+
+    #coffee_card {
+        display: block;
+        padding: 1rem 15rem;
+        margin: 5rem 0 auto;
+    }
+
+    div#coffee_card {
+        margin-left: 0;
+    }
+
+    #cocktail_card {
+        display: block;
+        padding: 1rem 15rem;
+        margin: 5rem 0 auto;
+    }
+
+    #food-list-header h3 {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 7rem;
+    }
+
+    #food-list-header ul {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 1rem;
+    }
+
+    section.food-list {
+        padding-top: 2.5rem;
+    }
+
+    #images1 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images1 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.text_right {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 25px;
+        width: 260px;
+        text-align: center;
+    }
+
+    #images2 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images2 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    #images3 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images3 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 10px;
+        margin: 0 0 0 2rem;
+    }
+
+    div#right-secondary-image {
+        display: none;
+    }
+
+    #food-list-header {
+        margin: 0 2rem auto;
+    }
+
+    .backtorecp {
+        font-family: Oswald, sans-serif;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 18px;
+        line-height: 35px;
+        margin: 5rem;
+    }
+}
+
 /* Phone resolution */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (max-width: 810px) {
     #body {
         width: 375px;
         height: 812px;
@@ -892,16 +1130,16 @@ div.text_right {
     #creator-info_ {
         margin: 0;
     }
+
     #circle-container {
         position: absolute;
         width: 300px;
         height: 300px;
-        padding: 30px;
         border-style: solid;
         border-color: rgb(240, 132, 60);
         border-width: 1px;
         border-radius: 50%;
-        margin: 2rem 0 0 22rem;
+        margin: 2rem 0 0 22.5rem;
     }
 
     #creator-img_web {
@@ -933,25 +1171,34 @@ div.text_right {
 
     #food_card_ {
         display: block;
-        padding-left: 2rem;
         vertical-align: bottom;
-        margin: 7rem 0 auto;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
     }
+    div#food_card_ {
+        margin: 10rem auto;
+    }
+
     #coffee_card {
         display: block;
-        padding-left: 2rem;
         vertical-align: bottom;
-        margin: 7rem 0 auto;
-        margin-left: 0;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+
     }
+
     div#coffee_card {
-        margin-left: 0;
+        margin: 10rem auto;
     }
+
     #cocktail_card {
         display: block;
-        padding-left: 2rem;
         vertical-align: bottom;
-        margin: 7rem 0 auto;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+    }
+    div#cocktail_card {
+        margin: 10rem auto;
     }
 
     #food-list-header h3 {
@@ -1046,233 +1293,5 @@ div.text_right {
 
     #food-list-header {
         margin: 0 2rem auto;
-    }
-}
-
-/* ipad screen resolution */ 
-@media screen and (max-width: 810px) {
-    #body {
-        width: 375px;
-        height: 812px;
-    }
-
-    #main_name {
-        float: none;
-        border-bottom: none;
-        font-family: Oswald, sans-serif;
-        color: rgb(240, 132, 60);
-        font-size: 200%;
-        line-height: 50px;
-        text-align: center;
-
-    }
-
-    #menu {
-        font-family: Oswald, sans-serif;
-        font-size: 120%;
-        letter-spacing: 4px;
-        list-style-type: none;
-        padding-top: 5px;
-        text-align: center;
-        margin: 0 15rem;
-    }
-
-    #cooking {
-        display: block;
-        width: 810px;
-        height: 720px;
-        }
-
-    #image-text {
-        border-radius: 12%;
-        right: 50%;
-        bottom: 6%;
-
-    }
-
-    #food-card {
-        display: none;
-    }
-
-    #cocktail-card {
-        display: none;
-    }
-
-    #coffee-card {
-        display: none;
-    }
-
-    #idea-card {
-        display: none;
-    }
-
-    #creator-info {
-        margin-top: 2rem;
-    }
-    #image-text, #image-text h3 {
-        color: #fff;
-        padding: 2rem;
-    }
-
-    #creator-info-text {
-        display: none;
-    }
-
-    section#creator-info_ {
-        padding-left: 0;
-    }
-
-    #creator-info_ {
-        margin: 2rem;
-    }
-    #circle-container {
-        position: absolute;
-        width: 300px;
-        height: 300px;
-        padding: 30px;
-        border-style: solid;
-        border-color: rgb(240, 132, 60);
-        border-width: 1px;
-        border-radius: 50%;
-    }
-
-    #creator-img_web {
-        display: block;
-    } 
-
-    #circle-container_web {
-        display: block;
-        margin: 0 25rem;
-    }
-
-    #creator-img_web {
-        display: block;
-    }
-
-    #want-to-contact {
-        margin: 0;
-        padding-top: 1rem;
-        margin-right: 50px;
-        text-align: center;
-    }
-
-    #want-to-contact a {
-        margin: 0;
-    }
-
-    #form-contact {
-        padding: 10rem 0;
-    }
-
-    #food_card_ {
-        display: block;
-        padding: 1rem 15rem;
-        margin: 5rem 0 auto;
-    }
-    #coffee_card {
-        display: block;
-        padding: 1rem 15rem;
-        margin: 5rem 0 auto;
-    }
-    div#coffee_card {
-        margin-left: 0;
-    }
-    #cocktail_card {
-        display: block;
-        padding: 1rem 15rem;
-        margin: 5rem 0 auto;
-    }
-
-    #food-list-header h3 {
-        display: grid;
-        align-items: center;
-        justify-content: space-around;
-        display: block;
-        padding-left: 50px;
-        margin-top: 7rem;
-    }
-
-    #food-list-header ul {
-        display: grid;
-        align-items: center;
-        justify-content: space-around;
-        display: block;
-        padding-left: 50px;
-        margin-top: 1rem;
-    }
-
-    section.food-list {
-        padding-top: 2.5rem;
-    }
-
-    #images1 img {
-        width: 350px;
-        height: 500px;
-        border-style: solid;
-        border-radius: 10%;
-        border-color: rgb(240, 132, 60);
-        margin-left: 0;
-    }
-
-    #images1 {
-        display: flex;
-        padding-top: 5rem;
-        padding: 0px;
-        margin: 0 0 0 2rem;
-    }
-
-    div.text_right {
-        font-family: Josefin Sans, sans-serif;
-        font-size: 25px;
-        width: 260px;
-        text-align: center;
-    }
-
-    #images2 img {
-        width: 350px;
-        height: 500px;
-        border-style: solid;
-        border-radius: 10%;
-        border-color: rgb(240, 132, 60);
-        margin-left: 0;
-    }
-
-    #images2 {
-        display: flex;
-        padding-top: 5rem;
-        padding: 0px;
-        margin: 0 0 0 2rem;
-    }
-
-    #images3 img {
-        width: 350px;
-        height: 500px;
-        border-style: solid;
-        border-radius: 10%;
-        border-color: rgb(240, 132, 60);
-        margin-left: 0;
-    }
-
-    #images3 {
-        display: flex;
-        padding-top: 5rem;
-        padding: 10px;
-        margin: 0 0 0 2rem;
-    }
-
-    div#right-secondary-image {
-        display: none;
-    }
-
-    #food-list-header {
-        margin: 0 2rem auto;
-    }
-    .backtorecp {
-        font-family: Oswald, sans-serif;
-        text-align: center;
-        font-weight: lighter;
-        font-size: 18px;
-        line-height: 35px;
-        margin: 5rem;
     }
 }
