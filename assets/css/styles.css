@@ -55,7 +55,7 @@ ul>li {
 #cooking {
     height: 800px;
     width: 1900px;
-    background: url(/images/background.jpg) no-repeat center center;
+    background: url('/assets/images/background.jpg') no-repeat center center;
     overflow: hidden;
     justify-content: center;
     animation: bg-zoom;
@@ -821,6 +821,13 @@ div.text_right {
 }
 
 /* -----------------MEDIA QUERIES----------*/ 
+
+/* desktop reso */
+@media screen and (max-width: 1920px) { 
+    #phone-size-recipe-selection {
+        display: none;
+    }
+}
 
 /* Laptop screen resolution 1440px */
 
