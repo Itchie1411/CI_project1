@@ -1105,7 +1105,7 @@ div.text_right {
 }
 
 /* Phone resolution */
-@media screen and (max-width: 375px) and (max-width: 810px) {
+@media screen and (max-width: 428px) and (max-width: 926px) {
     #body {
         width: 375px;
         height: 812px;
@@ -1163,6 +1163,7 @@ div.text_right {
 
     #creator-info {
         margin-top: 150px;
+        margin-right: 22rem;
     }
 
     #creator-info-text {
@@ -1175,6 +1176,7 @@ div.text_right {
 
     #creator-info_ {
         margin: 0;
+        margin: 2.3rem;
     }
 
     #circle-container {
@@ -1198,6 +1200,9 @@ div.text_right {
 
     #creator-img_web {
         display: none;
+    }
+    #phone-size-recipe-selection {
+        display: block;
     }
 
     #want-to-contact {
