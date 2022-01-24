@@ -55,7 +55,7 @@ ul>li {
 #cooking {
     height: 800px;
     width: 1900px;
-    background: url('/assets/images/background.jpg') no-repeat center center;
+    background: url('../images/background.jpg') no-repeat center center;
     overflow: hidden;
     justify-content: center;
     animation: bg-zoom;
@@ -820,10 +820,10 @@ div.text_right {
     height: 2.5rem;
 }
 
-/* -----------------MEDIA QUERIES----------*/ 
+/* -----------------MEDIA QUERIES----------*/
 
 /* desktop reso */
-@media screen and (max-width: 1920px) { 
+@media screen and (max-width: 1920px) {
     #phone-size-recipe-selection {
         display: none;
     }
@@ -832,7 +832,8 @@ div.text_right {
 /* Laptop screen resolution 1440px */
 
 @media screen and (max-width: 1440px) and (max-width: 1920px) {
-   /* #body {
+
+    /* #body {
         width: 450px;
         height: 1440px;
     } */
@@ -845,12 +846,15 @@ div.text_right {
     #phone-size-recipe-selection {
         display: none;
     }
-    #cooking-cards > #idea-card {
+
+    #cooking-cards>#idea-card {
         display: none;
     }
+
     #creator-info_ {
         margin: 0 0 0 0;
     }
+
     #want-to-contact h3 {
         display: block;
     }
@@ -858,17 +862,21 @@ div.text_right {
     #images1 img {
         margin-left: 6rem;
     }
+
     #images2 img {
         margin-left: 6rem;
     }
+
     #images3 img {
         margin-left: 6rem;
     }
+
     div.text_right {
         width: 20%;
     }
 
 }
+
 /* ipad screen resolution */
 @media screen and (max-width: 810px) {
     #body {
@@ -909,6 +917,7 @@ div.text_right {
         bottom: 6%;
 
     }
+
     #phone-size-recipe-selection {
         display: block;
     }
@@ -1204,6 +1213,7 @@ div.text_right {
     #creator-img_web {
         display: none;
     }
+
     #phone-size-recipe-selection {
         display: block;
     }
@@ -1229,6 +1239,7 @@ div.text_right {
         margin: 7rem 0 0 0%;
         padding: 0 40px;
     }
+
     div#food_card_ {
         margin: 10rem auto;
     }
@@ -1251,6 +1262,7 @@ div.text_right {
         margin: 7rem 0 0 0%;
         padding: 0 40px;
     }
+
     div#cocktail_card {
         margin: 10rem 1.5rem;
     }
