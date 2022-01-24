@@ -822,7 +822,46 @@ div.text_right {
 
 /* -----------------MEDIA QUERIES----------*/ 
 
+/* Laptop screen resolution 1440px */
 
+@media screen and (max-width: 1440px) and (max-width: 1920px) {
+   /* #body {
+        width: 450px;
+        height: 1440px;
+    } */
+    #cooking {
+        display: block;
+        width: 1440px;
+        height: 450px;
+    }
+
+    #phone-size-recipe-selection {
+        display: none;
+    }
+    #cooking-cards > #idea-card {
+        display: none;
+    }
+    #creator-info_ {
+        margin: 0 0 0 0;
+    }
+    #want-to-contact h3 {
+        display: block;
+    }
+
+    #images1 img {
+        margin-left: 6rem;
+    }
+    #images2 img {
+        margin-left: 6rem;
+    }
+    #images3 img {
+        margin-left: 6rem;
+    }
+    div.text_right {
+        width: 20%;
+    }
+
+}
 /* ipad screen resolution */
 @media screen and (max-width: 810px) {
     #body {
