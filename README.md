@@ -81,6 +81,18 @@ Users can easily contact the websites content creator or website creator by simp
 <br> 
 <hr>
 
+<h2> Issues and pain-points </h2>
+While creating this website, I came across some major issues with resolution sizes of the main desktop screen with images, cards and general positioning of information on screen. This is all the while I haven't even gotten to the media queries yet. <br>
+I sadly abondoned the idea of an image carosel to display receipe pictures as
+this was due mostly being out of my scope to do. I compromised by placing each
+cooking picture above each other and text beside with instructions. 
+This raised its own issues in that placing text beside an image took far longer to solve that I am willing to admit, the solve behind it was the differece in adding a new div element rather than myself moving around the text with padding and margins which almost broke the page I was working on.<br>
+Further more, I could only post 1 recipe rather than my scope of preseting 3 as the time scale behind it made it quite hard. The photos taken of the recipe are of my partner cooking and with out conflicting time schedules, it make it hard to get 3 recipe photos done. 
+<br> 
+Lastly, creating media queries I will admit took the longest, I make the rookie error of starting from the bigest screen to the smallest - while my mentor on this pointed out that it should always be the other way around, always smallest screen first, then to the largest.
+With the information and websites given to me on how to fix these media queries properly, I have to thank my mentor for this. As we took the approach of 'I know how to fix it, but we need you to understand how to, too' Which was amazing and worked almost to well. 
+<hr>
+
 <h2> Testing
 <a href='#style'>
 </h2> </a>
