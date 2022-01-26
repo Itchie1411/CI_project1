@@ -1630,6 +1630,10 @@ div.text_right {
         height: 812px;
     }
 
+    hr {
+        width: 250px;
+    }
+
     #main_name {
         float: none;
         margin-left: 0;
@@ -1681,8 +1685,8 @@ div.text_right {
     }
 
     #creator-info {
-        margin-top: 150px;
-        margin-right: 22rem;
+        margin-top: 2rem;
+        padding: 10rem 0 25rem 0;
     }
 
     #creator-info-text {
