@@ -6,7 +6,7 @@
     font-family: Oswald, sans-serif;
     color: rgb(240, 132, 60);
     font-size: 200%;
-    margin-left: 25px;
+    margin-left: 1.5rem;
     float: left;
     line-height: 50px;
 }
@@ -1557,9 +1557,9 @@ div.text_right {
 
     #images1 {
         display: flex;
-        padding-top: 5rem;
         padding: 0px;
-        margin: 0 0 0 2rem;
+        margin: 0;
+        margin-right: 2.5rem;
     }
 
     div.left {
@@ -1585,9 +1585,9 @@ div.text_right {
 
     #images2 {
         display: flex;
-        padding-top: 5rem;
         padding: 0px;
-        margin: 0 0 0 2rem;
+        margin: 0;
+        margin-right: 2.5rem;
     }
 
     div.right {
@@ -1605,9 +1605,252 @@ div.text_right {
 
     #images3 {
         display: flex;
-        padding-top: 5rem;
         padding: 0px;
-        margin: 0 0 0 2rem;
+        margin: 0;
+        margin-right: 2.5rem;
+    }
+
+    div.right {
+        width: 50px;
+    }
+
+    div#right-secondary-image {
+        display: none;
+    }
+
+    #food-list-header {
+        margin: 0 2rem auto;
+    }
+}
+/* Andriod resolution 384px */
+@media screen and (max-width: 384px) {
+    #body {
+        width: 384px;
+        height: 854px;
+    }
+
+    hr {
+        width: 250px;
+    }
+
+    #main_name {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        border-bottom: none;
+        font-family: Oswald, sans-serif;
+        color: rgb(240, 132, 60);
+        font-size: 200%;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    #menu {
+        font-family: Oswald, sans-serif;
+        font-size: 120%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        padding-top: 5px;
+        text-align: center;
+        margin: 0 5rem;
+    }
+
+    #cooking {
+        display: none;
+    }
+
+    #image-text {
+        border-radius: 12%;
+        right: 50%;
+        bottom: 6%;
+
+    }
+
+    #food-card {
+        display: none;
+    }
+
+    #cocktail-card {
+        display: none;
+    }
+
+    #coffee-card {
+        display: none;
+    }
+
+    #idea-card {
+        display: none;
+    }
+
+    #creator-info {
+        margin-top: 2rem;
+    }
+
+    #creator-info-text {
+        display: none;
+    }
+
+    #creator-info_ {
+        margin: 0;
+    }
+
+    #circle-container {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-style: solid;
+        border-color: rgb(240, 132, 60);
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 2rem 0 0 22.5rem;
+    }
+
+    #creator-img_web {
+        display: none;
+    }
+
+    #circle-container_web {
+        display: none;
+    }
+
+    #creator-img_web {
+        display: none;
+    }
+
+    #phone-size-recipe-selection {
+        display: block;
+    }
+
+    #want-to-contact {
+        margin: 0;
+        padding-top: 20rem;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    #want-to-contact a {
+        margin: 0;
+    }
+
+    #form-contact {
+        padding: 10rem 0;
+    }
+
+    #food_card_ {
+        display: block;
+        vertical-align: bottom;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+    }
+
+    div#food_card_ {
+        margin: 3.5rem auto;
+    }
+
+    #coffee_card {
+        display: block;
+        vertical-align: bottom;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+
+    }
+
+    div#coffee_card {
+        margin: 3.5rem auto;
+    }
+
+    #cocktail_card {
+        display: block;
+        vertical-align: bottom;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+    }
+
+    div#cocktail_card {
+        margin: 3.5rem auto;
+    }
+
+    #food-list-header h3 {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 7rem;
+    }
+
+    #food-list-header ul {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 1rem;
+    }
+
+    #images1 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images1 {
+        display: flex;
+        padding: 0px;
+        margin: 0;
+        margin-right: 2.5rem;
+    }
+
+    div.left {
+        width: 50px;
+    }
+
+    div.text_right {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 25px;
+        width: 260px;
+        margin: 33rem 0 auto;
+        text-align: center;
+    }
+
+    #images2 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images2 {
+        display: flex;
+        padding: 0px;
+        margin: 0;
+        margin-right: 2.5rem;
+    }
+
+    div.right {
+        width: 50px;
+    }
+
+    #images3 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images3 {
+        display: flex;
+        padding: 0px;
+        margin: 0;
+        margin-right: 2.5rem;
     }
 
     div.right {
@@ -1653,8 +1896,7 @@ div.text_right {
         letter-spacing: 4px;
         list-style-type: none;
         padding-top: 5px;
-        text-align: center;
-        margin: 0 5rem;
+        padding-right: 2rem;
     }
 
     #cooking {
@@ -1807,9 +2049,9 @@ div.text_right {
 
     #images1 {
         display: flex;
-        padding-top: 5rem;
         padding: 0px;
-        margin: 0 0 0 2rem;
+        margin: 0;
+        margin-right: 2.5rem;
     }
 
     div.left {
@@ -1835,9 +2077,9 @@ div.text_right {
 
     #images2 {
         display: flex;
-        padding-top: 5rem;
         padding: 0px;
-        margin: 0 0 0 2rem;
+        margin: 0;
+        margin-right: 2.5rem;
     }
 
     div.right {
@@ -1855,9 +2097,9 @@ div.text_right {
 
     #images3 {
         display: flex;
-        padding-top: 5rem;
         padding: 0px;
-        margin: 0 0 0 2rem;
+        margin: 0;
+        margin-right: 2.5rem;
     }
 
     div.right {
@@ -1869,6 +2111,7 @@ div.text_right {
     }
 
     #food-list-header {
-        margin: 0 2rem auto;
+        margin: 0;
+        margin-right: 2.5rem;
     }
 }
