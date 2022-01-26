@@ -1686,7 +1686,6 @@ div.text_right {
 
     #creator-info {
         margin-top: 2rem;
-        padding: 10rem 0 25rem 0;
     }
 
     #creator-info-text {
@@ -1694,7 +1693,8 @@ div.text_right {
     }
 
     section#creator-info_ {
-        padding-left: 0;
+        margin-top: 2rem;
+        margin: 0;
     }
 
     #creator-info_ {
@@ -1752,7 +1752,7 @@ div.text_right {
     }
 
     div#food_card_ {
-        margin: 10rem auto;
+        margin: 3.5rem auto;
     }
 
     #coffee_card {
@@ -1764,7 +1764,7 @@ div.text_right {
     }
 
     div#coffee_card {
-        margin: 10rem auto;
+        margin: 3.5rem auto;
     }
 
     #cocktail_card {
@@ -1775,7 +1775,7 @@ div.text_right {
     }
 
     div#cocktail_card {
-        margin: 10rem 1.5rem;
+        margin: 3.5rem auto;
     }
 
     #food-list-header h3 {
