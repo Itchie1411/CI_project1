@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,300&family=Montserrat:wght@200&family=Oswald&display=swap');
 
+
 #main_name,
 #menu {
     font-family: Oswald, sans-serif;
@@ -410,9 +411,6 @@ section#cooking-cards {
     margin: 0 10rem 0 15rem;
 }
 
-#creator-info_web li,
-ol {}
-
 #circle-container_web {
     position: inherit;
     width: 300px;
@@ -797,9 +795,6 @@ div.text_right {
     font-size: 20px;
     line-height: 35px;
 }
-
-
-
 #food-list-header ul {
     font-family: Oswald, sans-serif;
     text-align: center;
@@ -808,12 +803,10 @@ div.text_right {
     line-height: 35px;
     padding-left: 0;
 }
-
 #food-footer social-medias {
     padding-top: 48rem;
 
 }
-
 #footer {
     bottom: 0;
     width: 100%;
@@ -821,17 +814,32 @@ div.text_right {
 }
 
 /* -----------------MEDIA QUERIES----------*/
-
 /* desktop reso */
 @media screen and (max-width: 1920px) {
     #phone-size-recipe-selection {
         display: none;
     }
+    #right-secondary-image {
+        display: none;
+    }
+    #images1 {
+            display: flex;
+            justify-content: center;
+            margin-right: 20rem;
+    }
+    #images2 {
+        display: flex;
+        justify-content: center;
+        margin-right: 20rem;
+    }
+    #images3 {
+        display: flex;
+        justify-content: center;
+        margin-right: 20rem;
+    }
 }
-
 /* Laptop screen resolution 1440px */
-
-@media screen and (max-width: 1440px) and (max-width: 1920px) {
+@media screen and (max-width: 1440px) {
 
     /* #body {
         width: 450px;
@@ -870,6 +878,9 @@ div.text_right {
     #images3 img {
         margin-left: 6rem;
     }
+    #right-secondary-image {
+        display: none;
+    }
 
     div.text_right {
         width: 20%;
@@ -877,11 +888,12 @@ div.text_right {
 
 }
 
-/* ipad screen resolution */
-@media screen and (max-width: 810px) {
+
+/* Samller laptop screens */
+@media screen and (max-width: 1280px) {
     #body {
-        width: 375px;
-        height: 812px;
+        width: 1280px;
+        height: 800px;
     }
 
     #main_name {
@@ -902,13 +914,18 @@ div.text_right {
         list-style-type: none;
         padding-top: 5px;
         text-align: center;
-        margin: 0 15rem;
+        float: inherit;
+        margin-right: 0;
     }
 
     #cooking {
         display: block;
-        width: 810px;
-        height: 720px;
+        width: 1280px;
+        height: 480px;
+    }
+
+    #phone-size-recipe-selection {
+        display: none;
     }
 
     #image-text {
@@ -917,21 +934,23 @@ div.text_right {
         bottom: 6%;
 
     }
+    #cooking-cards {
+        column-gap: 15;
 
-    #phone-size-recipe-selection {
-        display: block;
     }
-
     #food-card {
-        display: none;
+        display: block;
+        margin: 3rem;
     }
 
     #cocktail-card {
-        display: none;
+        display: block;
+        margin: 3rem;
     }
 
     #coffee-card {
-        display: none;
+        display: block;
+        margin: 3rem;
     }
 
     #idea-card {
@@ -946,18 +965,21 @@ div.text_right {
     #image-text h3 {
         color: #fff;
         padding: 2rem;
+        right: 0;
     }
 
     #creator-info-text {
-        display: none;
+        display: block;
+        margin-left: 30px;
     }
 
     section#creator-info_ {
         padding-left: 0;
     }
 
-    #creator-info_ {
-        margin: 2rem;
+    #creator-info {
+        margin-top: 2rem;
+        margin-bottom: 7rem;
     }
 
     #circle-container {
@@ -1002,7 +1024,7 @@ div.text_right {
     #food_card_ {
         display: block;
         padding: 1rem 15rem;
-        margin: 5rem 0 auto;
+        margin: 8rem 0 auto;
     }
 
     #coffee_card {
@@ -1116,8 +1138,493 @@ div.text_right {
     }
 }
 
-/* Phone resolution */
-@media screen and (max-width: 428px) and (max-width: 810px) {
+/* ipad screen resolution */
+@media screen and (max-width: 810px) {
+    #body {
+        width: 810px;
+        height: 1080px;
+    }
+
+    #main_name {
+        float: none;
+        border-bottom: none;
+        font-family: Oswald, sans-serif;
+        color: rgb(240, 132, 60);
+        font-size: 200%;
+        line-height: 50px;
+        text-align: center;
+
+    }
+
+    #menu {
+        font-family: Oswald, sans-serif;
+        font-size: 120%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        padding-top: 5px;
+        text-align: center;
+        margin: 0 15rem;
+    }
+
+    #cooking {
+        display: block;
+        width: 810px;
+        height: 480px;
+    }
+
+    #image-text {
+        border-radius: 12%;
+        right: 50%;
+        bottom: 6%;
+
+    }
+
+    #phone-size-recipe-selection {
+        display: block;
+    }
+
+    #food-card {
+        display: none;
+    }
+
+    #cocktail-card {
+        display: none;
+    }
+
+    #coffee-card {
+        display: none;
+    }
+
+    #idea-card {
+        display: none;
+    }
+
+    #creator-info {
+        margin-top: 2rem;
+    }
+
+    #image-text,
+    #image-text h3 {
+        color: #fff;
+        padding: 2rem;
+    }
+
+    #creator-info-text {
+        display: none;
+    }
+
+    section#creator-info_ {
+        padding-left: 0;
+    }
+
+    #creator-info_ {
+        margin: 2rem;
+    }
+
+    #circle-container {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+        border-style: solid;
+        border-color: rgb(240, 132, 60);
+        border-width: 1px;
+        border-radius: 50%;
+    }
+
+    #creator-img_web {
+        display: block;
+    }
+
+    #circle-container_web {
+        display: block;
+        margin: 0 25rem;
+    }
+
+    #creator-img_web {
+        display: block;
+    }
+
+    #want-to-contact {
+        margin: 0;
+        padding-top: 1rem;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    #want-to-contact a {
+        margin: 0;
+    }
+
+    #form-contact {
+        padding: 10rem 0;
+    }
+
+    #food_card_ {
+        display: block;
+        padding: 1rem 15rem;
+        margin: 8rem 0 auto;
+    }
+
+    #coffee_card {
+        display: block;
+        padding: 1rem 15rem;
+        margin: 5rem 0 auto;
+    }
+
+    div#coffee_card {
+        margin-left: 0;
+    }
+
+    #cocktail_card {
+        display: block;
+        padding: 1rem 15rem;
+        margin: 5rem 0 auto;
+    }
+
+    #food-list-header h3 {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 7rem;
+    }
+
+    #food-list-header ul {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 1rem;
+    }
+
+    section.food-list {
+        padding-top: 2.5rem;
+    }
+
+    #images1 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images1 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.text_right {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 25px;
+        width: 260px;
+        text-align: center;
+    }
+
+    #images2 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images2 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    #images3 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images3 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 10px;
+        margin: 0 0 0 2rem;
+    }
+
+    div#right-secondary-image {
+        display: none;
+    }
+
+    #food-list-header {
+        margin: 0 2rem auto;
+    }
+
+    .backtorecp {
+        font-family: Oswald, sans-serif;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 18px;
+        line-height: 35px;
+        margin: 5rem;
+    }
+}
+
+/* larger iPhone resolution 428px */
+@media screen and (max-width: 428px) {
+    #body {
+        width: 428px;
+        height: 926px;
+    }
+
+    #main_name {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        border-bottom: none;
+        font-family: Oswald, sans-serif;
+        color: rgb(240, 132, 60);
+        font-size: 200%;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    #menu {
+        font-family: Oswald, sans-serif;
+        font-size: 120%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        padding-top: 5px;
+        text-align: center;
+        margin: 0 5rem;
+    }
+
+    #cooking {
+        display: none;
+    }
+
+    #image-text {
+        border-radius: 12%;
+        right: 50%;
+        bottom: 6%;
+
+    }
+
+    #food-card {
+        display: none;
+    }
+
+    #cocktail-card {
+        display: none;
+    }
+
+    #coffee-card {
+        display: none;
+    }
+
+    #idea-card {
+        display: none;
+    }
+
+    #creator-info {
+        margin-top: 150px;
+        margin-right: 22rem;
+    }
+
+    #creator-info-text {
+        display: none;
+    }
+
+    section#creator-info_ {
+        padding-left: 0;
+    }
+
+    #creator-info_ {
+        margin: 0;
+        margin: 2.3rem;
+    }
+
+    #circle-container {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-style: solid;
+        border-color: rgb(240, 132, 60);
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 2rem 0 0 22.5rem;
+    }
+
+    #creator-img_web {
+        display: none;
+    }
+
+    #circle-container_web {
+        display: none;
+    }
+
+    #creator-img_web {
+        display: none;
+    }
+
+    #phone-size-recipe-selection {
+        display: block;
+    }
+
+    #want-to-contact {
+        margin: 0;
+        padding-top: 20rem;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    #want-to-contact a {
+        margin: 0;
+    }
+
+    #form-contact {
+        padding: 10rem 0;
+    }
+
+    #food_card_ {
+        display: block;
+        vertical-align: bottom;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+    }
+
+    div#food_card_ {
+        margin: 10rem 1.5rem auto;
+    }
+
+    #coffee_card {
+        display: block;
+        vertical-align: bottom;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+
+    }
+
+    div#coffee_card {
+        margin: 10rem auto;
+    }
+
+    #cocktail_card {
+        display: block;
+        vertical-align: bottom;
+        margin: 7rem 0 0 0%;
+        padding: 0 40px;
+    }
+
+    div#cocktail_card {
+        margin: 10rem 1.5rem;
+    }
+
+    #food-list-header h3 {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 7rem;
+    }
+
+    #food-list-header ul {
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        display: block;
+        padding-left: 50px;
+        margin-top: 1rem;
+    }
+
+    #images1 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images1 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.left {
+        width: 50px;
+    }
+
+    div.text_right {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 25px;
+        width: 260px;
+        margin: 33rem 0 auto;
+        text-align: center;
+    }
+
+    #images2 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images2 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.right {
+        width: 50px;
+    }
+
+    #images3 img {
+        width: 350px;
+        height: 500px;
+        border-style: solid;
+        border-radius: 10%;
+        border-color: rgb(240, 132, 60);
+        margin-left: 0;
+    }
+
+    #images3 {
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+
+    div.right {
+        width: 50px;
+    }
+
+    div#right-secondary-image {
+        display: none;
+    }
+
+    #food-list-header {
+        margin: 0 2rem auto;
+    }
+}
+
+/* iPhone resolution 375px */
+@media screen and (max-width: 375px) {
     #body {
         width: 375px;
         height: 812px;
