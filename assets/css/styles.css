@@ -11,8 +11,6 @@
     line-height: 50px;
 }
 
-
-
 #main_name:hover {
     border-bottom: 1px solid rgb(240, 132, 60);
 }
@@ -53,7 +51,7 @@ ul>li {
 }
 
 /* background image */
-#cooking {
+.cooking {
     height: 800px;
     width: 1900px;
     background: url('../images/background.jpg') no-repeat center center;
@@ -96,11 +94,12 @@ ul>li {
     position: absolute;
 }
 
-#creator-info {
+.creator-info {
     height: 400px;
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    margin-right: 40rem;
 }
 
 section#creator-info_ {
@@ -166,15 +165,16 @@ section#creator-info_ {
     height: 600px;
 
 }
-
 section#cooking-cards {
     width: 0%;
     height: 0%;
+    display: flex;
 }
+
 
 #food-card {
     max-width: 300px;
-    margin-left: 110px;
+    margin-left: 150px;
     font-family: Montserrat, Arial;
     text-align: center;
 }
@@ -209,7 +209,6 @@ section#cooking-cards {
 }
 
 #cocktail-card {
-
     max-width: 300px;
     margin-left: 150px;
     font-family: Montserrat, Arial;
@@ -816,6 +815,9 @@ div.text_right {
 /* -----------------MEDIA QUERIES----------*/
 /* desktop reso */
 @media screen and (max-width: 1920px) {
+    .cooking-cards {
+        display: flex;
+    }
     #phone-size-recipe-selection {
         display: none;
     }
@@ -823,21 +825,65 @@ div.text_right {
         display: none;
     }
     #images1 {
-            display: flex;
-            justify-content: center;
-            margin-right: 20rem;
-    }
-    #images2 {
         display: flex;
-        justify-content: center;
-        margin-right: 20rem;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
+    }
+    #images2 { 
+        display: flex;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
     }
     #images3 {
         display: flex;
-        justify-content: center;
-        margin-right: 20rem;
+        padding-top: 5rem;
+        padding: 0px;
+        margin: 0 0 0 2rem;
     }
+    .cooking {
+        display: block;
+        width: 1920px;
+        height: 480px;
+    }
+    .creator-info {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-right: 0rem;
 }
+}
+
+/* imac size screens 1600px*/
+@media screen and (max-width: 1600px) {
+    .cooking {
+        width: 1600px;
+        height: 500px;
+    }
+    #idea-card {
+        display: none;
+    }
+    div.text_right {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 25px;
+        width: 260px;
+        text-align: center;
+    }
+    #cooking-cards {
+        column-gap: 55px;
+        display: flex;
+    }
+    .creator-info {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-right: 0rem;
+}
+}
+
 /* Laptop screen resolution 1440px */
 @media screen and (max-width: 1440px) {
 
@@ -859,9 +905,18 @@ div.text_right {
         display: none;
     }
 
-    #creator-info_ {
-        margin: 0 0 0 0;
+    .cooking {
+        display: block;
+        width: 1440px;
+        height: 480px;
     }
+    .creator-info {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-right: 0rem;
+}
 
     #want-to-contact h3 {
         display: block;
@@ -918,11 +973,18 @@ div.text_right {
         margin-right: 0;
     }
 
-    #cooking {
+    .cooking {
         display: block;
         width: 1280px;
         height: 480px;
     }
+    .creator-info {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-right: 0rem;
+}
 
     #phone-size-recipe-selection {
         display: none;
@@ -1166,10 +1228,17 @@ div.text_right {
         margin: 0 15rem;
     }
 
-    #cooking {
+    .cooking {
         display: block;
         width: 810px;
         height: 480px;
+    }
+    .creator-info {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        margin: 0;
     }
 
     #image-text {
@@ -1384,6 +1453,11 @@ div.text_right {
         height: 926px;
     }
 
+
+    hr {
+        width: 250px;
+    }
+
     #main_name {
         float: none;
         margin-left: 0;
@@ -1407,16 +1481,17 @@ div.text_right {
         margin: 0 5rem;
     }
 
-    #cooking {
+    .cooking {
         display: none;
     }
-
-    #image-text {
-        border-radius: 12%;
-        right: 50%;
-        bottom: 6%;
-
+    .creator-info {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        margin-right: 22rem;
     }
+
 
     #food-card {
         display: none;
@@ -1656,15 +1731,8 @@ div.text_right {
         margin: 0 5rem;
     }
 
-    #cooking {
+    .cooking {
         display: none;
-    }
-
-    #image-text {
-        border-radius: 12%;
-        right: 50%;
-        bottom: 6%;
-
     }
 
     #food-card {
@@ -1899,7 +1967,7 @@ div.text_right {
         padding-right: 2rem;
     }
 
-    #cooking {
+    .cooking {
         display: none;
     }
 
