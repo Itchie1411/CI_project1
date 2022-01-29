@@ -556,7 +556,7 @@ div#food_card_header {
 }
 
 #food_card_ img {
-    max-width: 300px;
+    max-width: 250px;
 
 }
 
@@ -604,7 +604,7 @@ div#cocktail_card_header {
 
 
 #cocktail_card img {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 #cocktail_card button {
@@ -633,11 +633,6 @@ div#cocktail_card_header {
 
 #cocktail-card_header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-
-#cocktail_card img {
-    max-width: 300px;
 }
 
 #cocktail_card button {
@@ -684,7 +679,7 @@ div#coffee_card_header {
 }
 
 #coffee_card img {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 #coffee_card button {
@@ -990,6 +985,14 @@ div.text_right {
     div.text_right {
         width: 20%;
     }
+    #food-card {
+        padding: 0px;
+        padding-left: 90px;
+        margin-right: 0rem;
+        margin-left: 9px;
+        margin: 0px;
+        margin-bottom: 1px; 
+    }
 
 }
 
@@ -1030,7 +1033,8 @@ div.text_right {
     }
 
     .cooking-cards {
-        display: none;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .creator-info {
@@ -1123,14 +1127,12 @@ div.text_right {
 
     #food_card_ {
         display: block;
-        padding: 1rem 15rem;
-        margin: 8rem 0 auto;
+        padding: 1rem 29rem;
     }
 
     #coffee_card {
         display: block;
-        padding: 1rem 15rem;
-        margin: 5rem 0 auto;
+        padding: 1rem 29rem;
     }
 
     div#coffee_card {
@@ -1139,8 +1141,7 @@ div.text_right {
 
     #cocktail_card {
         display: block;
-        padding: 1rem 15rem;
-        margin: 5rem 0 auto;
+        padding: 1rem 29rem;
     }
 
     #food-list-header h3 {
@@ -1236,6 +1237,14 @@ div.text_right {
         line-height: 35px;
         margin: 5rem;
     }
+    #food-card {
+            padding: 0px;
+            padding-left: 90px;
+            margin-right: 0rem;
+            margin-left: 9px;
+            margin: 0px;
+            margin-bottom: 1px; 
+    }
 }
 
 /* ipad screen resolution */
@@ -1271,7 +1280,7 @@ div.text_right {
         width: 810px;
         height: 480px;
     }
-
+   
     .creator-info {
         height: 400px;
         display: flex;
@@ -1368,16 +1377,20 @@ div.text_right {
         padding: 10rem 0;
     }
 
+  
+    .cooking-cards {
+        height: 0%;
+      }
+
     #food_card_ {
-        display: block;
-        padding: 1rem 15rem;
-        margin: 8rem 0 auto;
+        visibility: visible;
+        margin: 0;
     }
+  
 
     #coffee_card {
         display: block;
-        padding: 1rem 15rem;
-        margin: 5rem 0 auto;
+        margin: 0;
     }
 
     div#coffee_card {
@@ -1386,8 +1399,7 @@ div.text_right {
 
     #cocktail_card {
         display: block;
-        padding: 1rem 15rem;
-        margin: 5rem 0 auto;
+        margin: 0;
     }
 
     #food-list-header h3 {
@@ -1524,7 +1536,7 @@ div.text_right {
     }
 
     .cooking-cards {
-        display: none;
+        display: block;
     }
 
     .creator-info {
@@ -1776,11 +1788,12 @@ div.text_right {
     }
 
     .cooking {
-        display: none;
+        visibility: hidden;
+        height: 0%;
     }
 
     .cooking-cards {
-        display: none;
+        display: block;
     }
 
     #food-card {
@@ -1882,6 +1895,7 @@ div.text_right {
         margin: 7rem 0 0 0%;
         padding: 0 40px;
     }
+      
 
     div#cocktail_card {
         margin: 3.5rem auto;
@@ -2025,9 +2039,8 @@ div.text_right {
         bottom: 6%;
 
     }
-
     .cooking-cards {
-        display: none;
+        display: block;
     }
 
     #food-card {
